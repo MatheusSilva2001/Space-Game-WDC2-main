@@ -1,0 +1,19 @@
+@keyframes moveBackground {
+  0% {
+    background-position-y: 100%;
+  }
+
+  100% {
+    background-position-y: 0%;
+  }
+}
+
+@keyframes shotAnimation {
+  0% {
+    transform: translate3d(-50%, -100%, 0);
+  }
+
+  100% {
+    transform: translate3d(-50%, -105vh, 0);
+  }
+}

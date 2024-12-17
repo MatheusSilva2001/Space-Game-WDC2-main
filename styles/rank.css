@@ -1,0 +1,53 @@
+@import url(reset.css);
+
+.container {
+  padding: 0.4rem;
+}
+
+aside .backButton {
+  margin-top: 3.2rem;
+  font-size: clamp(1rem, 2.5vw, 1.6rem);
+}
+
+main {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: clamp(2rem, 4.5vw, 2.4rem);
+  text-align: center;
+  color: var(--color-secondary-400);
+  margin-top: 2.4rem;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 2.4rem;
+  font-size: clamp(0.8rem, 2.5vw, 1.4rem);
+}
+
+th,
+td {
+  border: 2px solid var(--color-light-600);
+  padding: 1rem 1.6rem;
+}
+
+th {
+  font-weight: 700;
+  background: var(--color-light-700a);
+}
+
+tr {
+  transition: background 100ms;
+
+  &:hover {
+    background: var(--color-light-800a);
+  }
+}
+
+td:nth-child(2n + 1) {
+  text-align: center;
+}

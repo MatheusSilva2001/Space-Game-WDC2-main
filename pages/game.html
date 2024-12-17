@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emanuel Quintino" />
+    <meta name="creator" content="Reprograma Jucás" />
+    <meta
+      name="description"
+      content="O Spaceship Game é um jogo criado para encerramento do módulo de JavaScript no curso de Desenvolvimento Web ofertado pelo projeto Reprograma Jucás"
+    />
+    <link rel="shortcut icon" href="images/spaceship1.gif" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/game.css" />
+    <script src="../scripts/game.js" defer></script>
+    <title>Spaceship-Game | Reprograma Jucás</title>
+  </head>
+  <body>
+    <div class="spaceContainer">
+      <header>
+        <div class="life">Nave 100%</div>
+        <div>
+          <span class="playerName">Emanuel Quintino</span>
+          <span class="score">000000000</span>
+        </div>
+      </header>
+
+      <main>
+        <div class="enemies"></div>
+        <div class="spaceship"></div>
+      </main>
+    </div>
+
+    <aside class="gameOver">
+      <strong>Game Over</strong>
+      <button>Voltar</button>
+    </aside>
+  </body>
+</html>
